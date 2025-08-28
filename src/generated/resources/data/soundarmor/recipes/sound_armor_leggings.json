@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "S": {
+      "item": "alshanex_familiars:sound_rune"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MSM",
+    "M M"
+  ],
+  "result": {
+    "item": "soundarmor:sound_armor_leggings"
+  },
+  "show_notification": true
+}

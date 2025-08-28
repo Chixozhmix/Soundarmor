@@ -1,0 +1,8 @@
+{
+  "bard_heart_sound": {
+    "subtitles": "sounds.chispace.bard_heart_sound",
+    "sounds": [
+      "soundarmor:bard_heart_sound"
+    ]
+  }
+}

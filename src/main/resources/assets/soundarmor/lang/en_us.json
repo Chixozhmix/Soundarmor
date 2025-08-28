@@ -1,0 +1,16 @@
+{
+  "item.soundarmor.sound_armor_helmet": "Bard Helmet",
+  "item.soundarmor.sound_armor_chestplate": "Bard Chestplate",
+  "item.soundarmor.sound_armor_leggings": "Bard Leggings",
+  "item.soundarmor.sound_armor_boots": "Bard Boots",
+  "item.soundarmor.bard_heart": "Heart of bard",
+
+  "tooltip.chiarmor.sound_power": "§7Sound Spell Power: §b%s",
+  "tooltip.chiarmor.max_mana": "§7Max Mana: §b%s",
+  "tooltip.chiarmor.spell_power": "§7Spell Power: §b%s",
+
+  "effect.soundarmor.magic_power": "Inspiration of the bard",
+  "sounds.chispace.bard_heart_sound": "Heart music",
+
+  "creativetab.soundarmor.armor": "Bard Armor"
+}

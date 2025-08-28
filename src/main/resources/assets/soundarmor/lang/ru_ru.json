@@ -1,0 +1,17 @@
+{
+  "item.soundarmor.sound_armor_helmet": "Шлем барда",
+  "item.soundarmor.sound_armor_chestplate": "Нагрудник барда",
+  "item.soundarmor.sound_armor_leggings": "Поножи барда",
+  "item.soundarmor.sound_armor_boots": "Ботинки барда",
+  "item.soundarmor.bard_heart": "Сердце Барда",
+
+  "tooltip.chiarmor.sound_power": "§7Сила заклинаний звука: §b%s",
+  "tooltip.chiarmor.max_mana": "§7Макс. мана: §b%s",
+  "tooltip.chiarmor.spell_power": "§7Сила заклинаний: §b%s",
+
+  "effect.soundarmor.magic_power": "Вдохновение Барда",
+
+  "sounds.chispace.bard_heart_sound": "Музыка Сердца",
+
+  "creativetab.soundarmor.armor": "Броня Барда"
+}

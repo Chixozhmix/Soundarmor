@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "S": {
+      "item": "alshanex_familiars:sound_rune"
+    }
+  },
+  "pattern": [
+    "MSM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "item": "soundarmor:sound_armor_chestplate"
+  },
+  "show_notification": true
+}

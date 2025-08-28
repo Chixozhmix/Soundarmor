@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "S": {
+      "item": "alshanex_familiars:sound_rune"
+    }
+  },
+  "pattern": [
+    "A A",
+    " S ",
+    "   "
+  ],
+  "result": {
+    "item": "soundarmor:bard_heart"
+  },
+  "show_notification": true
+}

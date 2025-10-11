@@ -111,7 +111,7 @@ dependencies {
     implementation fg.deobf("curse.maven:pehkui-319596:5393101")
 
     //Delited before test
-    implementation fg.deobf("curse.maven:blessfulled-1182590:6624691")
+    //implementation fg.deobf("curse.maven:blessfulled-1182590:6624691")
 }
 
 tasks.named('processResources', ProcessResources).configure {

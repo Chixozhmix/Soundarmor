@@ -13,5 +13,8 @@
 
   "sounds.chispace.bard_heart_sound": "Музыка Сердца",
 
-  "creativetab.soundarmor.armor": "Броня Барда"
+  "creativetab.soundarmor.armor": "Броня Барда",
+
+  "spell.soundarmor.bard_inspiration": "Вдохновение барда",
+  "spell.soundarmor.bard_inspiration.guide": "Увеличивает урон в ближнем бою и силу заклинаний вас и ваших союзников."
 }

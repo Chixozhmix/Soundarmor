@@ -31,7 +31,7 @@ public class BardHeart extends Item {
                 nearbyPlayer.addEffect(new MobEffectInstance(
                         ModEffect.SPELL_POWER.get(),
                         1200,
-                        0,
+                        5,
                         false,
                         true,
                         true

@@ -12,5 +12,8 @@
   "effect.soundarmor.magic_power": "Inspiration of the bard",
   "sounds.chispace.bard_heart_sound": "Heart music",
 
-  "creativetab.soundarmor.armor": "Bard Armor"
+  "creativetab.soundarmor.armor": "Bard Armor",
+
+  "spell.soundarmor.bard_inspiration": "Bard inspiration",
+  "spell.soundarmor.bard_inspiration.guide": "Increases the power of nearby players' spells and melee damage."
 }

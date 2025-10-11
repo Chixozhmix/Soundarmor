@@ -5,6 +5,7 @@ import net.chixozhmix.chiarmor.effect.ModEffect;
 import net.chixozhmix.chiarmor.item.CreativeTab;
 import net.chixozhmix.chiarmor.item.ModsItem;
 import net.chixozhmix.chiarmor.sounds.ModSounds;
+import net.chixozhmix.chiarmor.spells.SpellRegistry;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -38,6 +39,8 @@ public class SoundArmor
         CreativeTab.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        SpellRegistry.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 

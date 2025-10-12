@@ -10,11 +10,18 @@
   "tooltip.chiarmor.spell_power": "§7Сила заклинаний: §b%s",
 
   "effect.soundarmor.magic_power": "Вдохновение Барда",
+  "effect.soundarmor.mana_regen_effect": "Регенерация маны",
 
   "sounds.chispace.bard_heart_sound": "Музыка Сердца",
 
   "creativetab.soundarmor.armor": "Броня Барда",
 
   "spell.soundarmor.bard_inspiration": "Вдохновение барда",
-  "spell.soundarmor.bard_inspiration.guide": "Увеличивает урон в ближнем бою и силу заклинаний вас и ваших союзников."
+  "spell.soundarmor.bard_inspiration.guide": "Увеличивает урон в ближнем бою и силу заклинаний вас и ваших союзников.",
+
+  "spell.soundarmor.mana_regen": "Регенерация маны",
+  "spell.soundarmor.mana_regen.guide": "Увеличивает регенерацию маны.",
+
+  "spell.soundarmor.vicious_mockery": "Злобная насмешка",
+  "spell.soundarmor.vicious_mockery.guide": "Наносит урон и ослабляет врагов."
 }

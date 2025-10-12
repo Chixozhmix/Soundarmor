@@ -10,10 +10,15 @@
   "tooltip.chiarmor.spell_power": "§7Spell Power: §b%s",
 
   "effect.soundarmor.magic_power": "Inspiration of the bard",
+  "effect.soundarmor.mana_regen_effect": "Mana regen",
+
   "sounds.chispace.bard_heart_sound": "Heart music",
 
   "creativetab.soundarmor.armor": "Bard Armor",
 
   "spell.soundarmor.bard_inspiration": "Bard inspiration",
-  "spell.soundarmor.bard_inspiration.guide": "Increases the power of nearby players' spells and melee damage."
+  "spell.soundarmor.bard_inspiration.guide": "Increases the power of nearby players' spells and melee damage.",
+
+  "spell.soundarmor.vicious_mockery": "Vicious Mockery",
+  "spell.soundarmor.vicious_mockery.guide": "Deals damage and inflicts weakness on enemies."
 }

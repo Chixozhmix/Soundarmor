@@ -13,6 +13,9 @@ public class ModEffect {
     public static final RegistryObject<MobEffect> SPELL_POWER =
             EFFECTS.register("magic_power", MagicPowerEffect::new);
 
+    public static final RegistryObject<MobEffect> MANA_REGEN_EFFECT =
+            EFFECTS.register("mana_regen_effect", ManaRegen::new);
+
     public static void register(IEventBus eventBus) {
         EFFECTS.register(eventBus);
     }

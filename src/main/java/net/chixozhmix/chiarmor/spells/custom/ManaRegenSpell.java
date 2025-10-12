@@ -6,11 +6,9 @@ import io.redspace.ironsspellbooks.api.spells.*;
 import net.alshanex.alshanex_familiars.registry.AFSchoolRegistry;
 import net.chixozhmix.chiarmor.SoundArmor;
 import net.chixozhmix.chiarmor.effect.ModEffect;
-import net.chixozhmix.chiarmor.sounds.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
@@ -18,36 +16,33 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.AABB;
 
 import java.util.List;
-import java.util.Optional;
 
 @AutoSpellConfig
-public class BardInspirationSpell extends AbstractSpell {
+public class ManaRegenSpell extends AbstractSpell {
 
-    private final ResourceLocation spellId = ResourceLocation.fromNamespaceAndPath(SoundArmor.MOD_ID, "bard_inspiration");
+    private final ResourceLocation spellId = ResourceLocation.fromNamespaceAndPath(SoundArmor.MOD_ID, "mana_regen");
 
-    public BardInspirationSpell() {
+    public ManaRegenSpell() {
         this.manaCostPerLevel = 10;
         this.baseSpellPower = 1;
         this.spellPowerPerLevel = 1;
-        this.castTime = 30;
-        this.baseManaCost = 50;
+        this.castTime = 20;
+        this.baseManaCost = 40;
     }
 
+    private DefaultConfig defaultConfig = new DefaultConfig()
+            .setMinRarity(SpellRarity.UNCOMMON)
+            .setSchoolResource(AFSchoolRegistry.SOUND_RESOURCE)
+            .setMaxLevel(5)
+            .setCooldownSeconds(60)
+            .build();
 
     @Override
     public List<MutableComponent> getUniqueInfo(int spellLevel, LivingEntity caster) {
         return List.of(
-                Component.translatable("ui.irons_spellbooks.effect_length", "60s")
+                Component.translatable("ui.irons_spellbooks.effect_length", "30s")
         );
     }
-
-    private DefaultConfig defaultConfig = new DefaultConfig()
-            .setMinRarity(SpellRarity.RARE)
-            .setSchoolResource(AFSchoolRegistry.SOUND_RESOURCE)
-            .setMaxLevel(3)
-            .setCooldownSeconds(60)
-            .build();
-
 
     @Override
     public ResourceLocation getSpellResource() {
@@ -65,11 +60,6 @@ public class BardInspirationSpell extends AbstractSpell {
     }
 
     @Override
-    public Optional<SoundEvent> getCastFinishSound() {
-        return Optional.of(ModSounds.HEATR_MUSIC.get());
-    }
-
-    @Override
     public void onCast(Level level, int spellLevel, LivingEntity entity, CastSource castSource, MagicData playerMagicData) {
 
         AABB area = new AABB(entity.blockPosition()).inflate(10);
@@ -77,8 +67,8 @@ public class BardInspirationSpell extends AbstractSpell {
 
         for (Player nearbyPlayer : players) {
             nearbyPlayer.addEffect(new MobEffectInstance(
-                    ModEffect.SPELL_POWER.get(),
-                    1200,
+                    ModEffect.MANA_REGEN_EFFECT.get(),
+                    600,
                     getAmplifier(spellLevel),
                     false,
                     true,
@@ -89,7 +79,7 @@ public class BardInspirationSpell extends AbstractSpell {
         super.onCast(level, spellLevel, entity, castSource, playerMagicData);
     }
 
-    public int getAmplifier(int spellLevel) {
+    private int getAmplifier(int spellLevel) {
         return -1 + spellLevel;
     }
 }

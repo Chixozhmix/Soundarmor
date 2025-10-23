@@ -15,16 +15,16 @@ public class ModsItem {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SoundArmor.MOD_ID);
 
     public static final RegistryObject<Item> SOUND_ARMOR_HELMET = ITEMS.register("sound_armor_helmet",
-            () -> new BardArmorItem(BardArmor.SOUND, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new BardArmorItem(ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> SOUND_ARMOR_CHESTPLATE = ITEMS.register("sound_armor_chestplate",
-            () -> new BardArmorItem(BardArmor.SOUND, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new BardArmorItem(ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
     public static final RegistryObject<Item> SOUND_ARMOR_LEGGINGS = ITEMS.register("sound_armor_leggings",
-            () -> new BardArmorItem(BardArmor.SOUND, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new BardArmorItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
 
     public static final RegistryObject<Item> SOUND_ARMOR_BOOTS = ITEMS.register("sound_armor_boots",
-            () -> new BardArmorItem(BardArmor.SOUND, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new BardArmorItem(ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> BARD_HEART = ITEMS.register("bard_heart",
             () -> new BardHeart(new Item.Properties()

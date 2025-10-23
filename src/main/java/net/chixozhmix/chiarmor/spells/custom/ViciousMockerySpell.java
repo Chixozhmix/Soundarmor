@@ -84,7 +84,8 @@ public class ViciousMockerySpell extends AbstractSpell {
             if (target1 != null) {
                 DamageSources.applyDamage(target1, getDamage(spellLevel, entity), getDamageSource(target1, entity));
 
-                target1.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 10, getAmplifier(spellLevel)));
+                target1.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, getAmplifier(spellLevel)));
+                target1.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 200, getAmplifier(spellLevel)));
             }
         }
 
@@ -96,6 +97,6 @@ public class ViciousMockerySpell extends AbstractSpell {
     }
 
     private float getDamage(int spellLevel, LivingEntity entity) {
-        return this.getSpellPower(spellLevel, entity) * 0.5F;
+        return this.getSpellPower(spellLevel, entity) * 0.8F;
     }
 }

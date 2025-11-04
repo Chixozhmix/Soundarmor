@@ -5,6 +5,9 @@
   "item.soundarmor.sound_armor_boots": "Bard Boots",
   "item.soundarmor.bard_heart": "Heart of bard",
 
+  "block.soundarmor.shell": "Shell",
+  "block.soundarmor.activator": "Activator",
+
   "tooltip.chiarmor.sound_power": "§7Sound Spell Power: §b%s",
   "tooltip.chiarmor.max_mana": "§7Max Mana: §b%s",
   "tooltip.chiarmor.spell_power": "§7Spell Power: §b%s",

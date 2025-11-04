@@ -5,6 +5,9 @@
   "item.soundarmor.sound_armor_boots": "Ботинки барда",
   "item.soundarmor.bard_heart": "Сердце Барда",
 
+  "item.soundarmor.shell": "Оболочка",
+  "item.soundarmor.activator": "Активатор",
+
   "tooltip.chiarmor.sound_power": "§7Сила заклинаний звука: §b%s",
   "tooltip.chiarmor.max_mana": "§7Макс. мана: §b%s",
   "tooltip.chiarmor.spell_power": "§7Сила заклинаний: §b%s",

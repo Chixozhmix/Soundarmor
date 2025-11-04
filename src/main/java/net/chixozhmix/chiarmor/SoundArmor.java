@@ -1,6 +1,7 @@
 package net.chixozhmix.chiarmor;
 
 import com.mojang.logging.LogUtils;
+import net.chixozhmix.chiarmor.block.ModBlocks;
 import net.chixozhmix.chiarmor.effect.ModEffect;
 import net.chixozhmix.chiarmor.item.CreativeTab;
 import net.chixozhmix.chiarmor.item.ModsItem;
@@ -33,6 +34,7 @@ public class SoundArmor
         modEventBus.addListener(this::commonSetup);
 
         ModsItem.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModEffect.register(modEventBus);
 

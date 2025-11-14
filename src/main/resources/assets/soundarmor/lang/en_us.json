@@ -8,10 +8,6 @@
   "block.soundarmor.shell": "Shell",
   "block.soundarmor.activator": "Activator",
 
-  "tooltip.chiarmor.sound_power": "§7Sound Spell Power: §b%s",
-  "tooltip.chiarmor.max_mana": "§7Max Mana: §b%s",
-  "tooltip.chiarmor.spell_power": "§7Spell Power: §b%s",
-
   "effect.soundarmor.magic_power": "Inspiration of the bard",
   "effect.soundarmor.mana_regen_effect": "Mana regen",
 
